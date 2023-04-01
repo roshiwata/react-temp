@@ -9,6 +9,6 @@ services:
       # - PORT=3002
     volumes:
     - ./:/usr/src/app
-    command: sh -c "cd react-todo-js && npm start"
+    command: sh -c "cd react-todo-js && npm install && npm start"
     ports:
     - "3000:3000"
