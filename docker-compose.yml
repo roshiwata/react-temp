@@ -4,11 +4,11 @@ services:
     build:
       context: .
     tty: true
-    environment:
-      - NODE_ENV=development
+    # environment:
+    #   - NODE_ENV=development
       # - PORT=3002
     # volumes:
     # - ./:/usr/src/app
     # command: sh -c "cd react-todo-js && npm install && npm start"
-    ports:
-    - "3000:3000"
+    # ports:
+    # - "3000:3000"
