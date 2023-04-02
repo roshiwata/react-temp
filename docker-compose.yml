@@ -7,8 +7,8 @@ services:
     environment:
       - NODE_ENV=development
       # - PORT=3002
-    volumes:
-    - ./:/usr/src/app
-    command: sh -c "cd react-todo-js && npm install && npm start"
+    # volumes:
+    # - ./:/usr/src/app
+    # command: sh -c "cd react-todo-js && npm install && npm start"
     ports:
     - "3000:3000"
